@@ -1,0 +1,2497 @@
+{
+  "stripVersion": 1,
+  "rightModules": [
+    {
+      "id": 4153,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "PolySplit",
+      "params": [],
+      "leftModuleId": 3772,
+      "rightModuleId": 4154,
+      "data": {
+        "voices": 8
+      }
+    },
+    {
+      "id": 4154,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Sums",
+      "params": [],
+      "leftModuleId": 4153,
+      "rightModuleId": 4148,
+      "data": {
+        "disableOutputLimit": false
+      }
+    },
+    {
+      "id": 4148,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "PolySplit",
+      "params": [],
+      "leftModuleId": 4154,
+      "rightModuleId": 4145,
+      "data": {
+        "voices": 8
+      }
+    },
+    {
+      "id": 4145,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Sums",
+      "params": [],
+      "leftModuleId": 4148,
+      "rightModuleId": 4149,
+      "data": {
+        "disableOutputLimit": false
+      }
+    },
+    {
+      "id": 4149,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "PolySplit",
+      "params": [],
+      "leftModuleId": 4145,
+      "rightModuleId": 4150,
+      "data": {
+        "voices": 8
+      }
+    },
+    {
+      "id": 4150,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Sums",
+      "params": [],
+      "leftModuleId": 4149,
+      "rightModuleId": 4151,
+      "data": {
+        "disableOutputLimit": false
+      }
+    },
+    {
+      "id": 4151,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "PolySplit",
+      "params": [],
+      "leftModuleId": 4150,
+      "rightModuleId": 4152,
+      "data": {
+        "voices": 8
+      }
+    },
+    {
+      "id": 4152,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Sums",
+      "params": [],
+      "leftModuleId": 4151,
+      "rightModuleId": 4073,
+      "data": {
+        "disableOutputLimit": false
+      }
+    },
+    {
+      "id": 4073,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-CVD",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.603500128
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 4152,
+      "rightModuleId": 4074
+    },
+    {
+      "id": 4074,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Cmp",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 4073,
+      "rightModuleId": 4075
+    },
+    {
+      "id": 4075,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "Split8",
+      "params": [],
+      "leftModuleId": 4074,
+      "rightModuleId": 4076
+    },
+    {
+      "id": 4076,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Bool",
+      "params": [],
+      "leftModuleId": 4075,
+      "rightModuleId": 4077
+    },
+    {
+      "id": 4077,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Bool",
+      "params": [],
+      "leftModuleId": 4076,
+      "rightModuleId": 4078
+    },
+    {
+      "id": 4078,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Bool",
+      "params": [],
+      "leftModuleId": 4077,
+      "rightModuleId": 4105
+    },
+    {
+      "id": 4105,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Bool",
+      "params": [],
+      "leftModuleId": 4078,
+      "rightModuleId": 4106
+    },
+    {
+      "id": 4106,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Bool",
+      "params": [],
+      "leftModuleId": 4105,
+      "rightModuleId": 4079
+    },
+    {
+      "id": 4079,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "Split8",
+      "params": [],
+      "leftModuleId": 4106,
+      "rightModuleId": 4080
+    },
+    {
+      "id": 4080,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-SampleHold",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 4079,
+      "rightModuleId": 4081,
+      "data": {
+        "poly_input": 0,
+        "noise_type": 0,
+        "range_offset": 1.0,
+        "range_scale": 5.0
+      }
+    },
+    {
+      "id": 4081,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-SampleHold",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 4080,
+      "rightModuleId": 4107,
+      "data": {
+        "poly_input": 0,
+        "noise_type": 0,
+        "range_offset": 1.0,
+        "range_scale": 5.0
+      }
+    },
+    {
+      "id": 4107,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-SampleHold",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 4081,
+      "rightModuleId": 4140,
+      "data": {
+        "poly_input": 0,
+        "noise_type": 0,
+        "range_offset": 1.0,
+        "range_scale": 5.0
+      }
+    },
+    {
+      "id": 4140,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Offset",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.211229801
+        }
+      ],
+      "leftModuleId": 4107,
+      "rightModuleId": 4127,
+      "data": {
+        "disableOutputLimit": false
+      }
+    },
+    {
+      "id": 4127,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Offset",
+      "params": [
+        {
+          "id": 0,
+          "value": -1.0
+        },
+        {
+          "id": 1,
+          "value": -0.316770017
+        }
+      ],
+      "leftModuleId": 4140,
+      "rightModuleId": 4128,
+      "data": {
+        "disableOutputLimit": false
+      }
+    },
+    {
+      "id": 4128,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Sums",
+      "params": [],
+      "leftModuleId": 4127,
+      "rightModuleId": 4160,
+      "data": {
+        "disableOutputLimit": false
+      }
+    },
+    {
+      "id": 4160,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "Split8",
+      "params": [],
+      "leftModuleId": 4128,
+      "rightModuleId": 4161
+    },
+    {
+      "id": 4161,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "Split8",
+      "params": [],
+      "leftModuleId": 4160,
+      "rightModuleId": 4163
+    },
+    {
+      "id": 4163,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "Split8",
+      "params": [],
+      "leftModuleId": 4161,
+      "rightModuleId": 4165
+    },
+    {
+      "id": 4165,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "Split8",
+      "params": [],
+      "leftModuleId": 4163,
+      "rightModuleId": 4166
+    },
+    {
+      "id": 4166,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "Split8",
+      "params": [],
+      "leftModuleId": 4165,
+      "rightModuleId": 4164
+    },
+    {
+      "id": 4164,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "Split8",
+      "params": [],
+      "leftModuleId": 4166,
+      "rightModuleId": 4089
+    },
+    {
+      "id": 4089,
+      "plugin": "NYSTHI",
+      "version": "1.0.13",
+      "model": "MusicalBox",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        },
+        {
+          "id": 36,
+          "value": 0.0
+        },
+        {
+          "id": 37,
+          "value": 0.0
+        },
+        {
+          "id": 38,
+          "value": 0.0
+        },
+        {
+          "id": 39,
+          "value": 0.0
+        },
+        {
+          "id": 40,
+          "value": 0.0
+        },
+        {
+          "id": 41,
+          "value": 0.0
+        },
+        {
+          "id": 42,
+          "value": 0.0
+        },
+        {
+          "id": 43,
+          "value": 0.0
+        },
+        {
+          "id": 44,
+          "value": 1.75151912e-13
+        },
+        {
+          "id": 45,
+          "value": 1.23622941e-13
+        },
+        {
+          "id": 46,
+          "value": 0.110236213
+        },
+        {
+          "id": 47,
+          "value": 0.0
+        },
+        {
+          "id": 48,
+          "value": 1.0
+        },
+        {
+          "id": 49,
+          "value": 0.758500099
+        },
+        {
+          "id": 50,
+          "value": 1.0
+        },
+        {
+          "id": 51,
+          "value": 1.0
+        },
+        {
+          "id": 52,
+          "value": 0.805906296
+        },
+        {
+          "id": 53,
+          "value": 0.805906296
+        },
+        {
+          "id": 54,
+          "value": 0.149741411
+        },
+        {
+          "id": 55,
+          "value": 1.0
+        },
+        {
+          "id": 56,
+          "value": 1.0
+        },
+        {
+          "id": 57,
+          "value": 1.0
+        },
+        {
+          "id": 58,
+          "value": 1.0
+        },
+        {
+          "id": 59,
+          "value": 1.0
+        },
+        {
+          "id": 60,
+          "value": 1.0
+        },
+        {
+          "id": 61,
+          "value": 1.0
+        },
+        {
+          "id": 62,
+          "value": 1.0
+        },
+        {
+          "id": 63,
+          "value": 1.0
+        },
+        {
+          "id": 64,
+          "value": 1.0
+        },
+        {
+          "id": 65,
+          "value": 1.0
+        },
+        {
+          "id": 66,
+          "value": 1.0
+        },
+        {
+          "id": 67,
+          "value": 1.0
+        },
+        {
+          "id": 68,
+          "value": 1.0
+        },
+        {
+          "id": 69,
+          "value": 1.0
+        },
+        {
+          "id": 70,
+          "value": 1.0
+        },
+        {
+          "id": 71,
+          "value": 1.0
+        },
+        {
+          "id": 72,
+          "value": 0.0
+        },
+        {
+          "id": 73,
+          "value": 0.0
+        },
+        {
+          "id": 74,
+          "value": 0.0
+        },
+        {
+          "id": 75,
+          "value": 0.0
+        },
+        {
+          "id": 76,
+          "value": 0.0
+        },
+        {
+          "id": 77,
+          "value": 0.0
+        },
+        {
+          "id": 78,
+          "value": 0.0
+        },
+        {
+          "id": 79,
+          "value": 0.0
+        },
+        {
+          "id": 80,
+          "value": 0.5
+        },
+        {
+          "id": 81,
+          "value": 0.5
+        },
+        {
+          "id": 82,
+          "value": 0.5
+        },
+        {
+          "id": 83,
+          "value": 0.5
+        },
+        {
+          "id": 84,
+          "value": 0.5
+        },
+        {
+          "id": 85,
+          "value": 0.5
+        },
+        {
+          "id": 86,
+          "value": 0.49849999
+        },
+        {
+          "id": 87,
+          "value": 0.5
+        },
+        {
+          "id": 88,
+          "value": 0.0
+        },
+        {
+          "id": 89,
+          "value": 0.0
+        },
+        {
+          "id": 90,
+          "value": 0.0
+        },
+        {
+          "id": 91,
+          "value": 0.0
+        },
+        {
+          "id": 92,
+          "value": 0.0
+        },
+        {
+          "id": 93,
+          "value": 0.0
+        },
+        {
+          "id": 94,
+          "value": 0.0
+        },
+        {
+          "id": 95,
+          "value": 0.0
+        },
+        {
+          "id": 96,
+          "value": 0.5
+        },
+        {
+          "id": 97,
+          "value": 0.5
+        },
+        {
+          "id": 98,
+          "value": 0.5
+        },
+        {
+          "id": 99,
+          "value": 0.5
+        },
+        {
+          "id": 100,
+          "value": 0.5
+        },
+        {
+          "id": 101,
+          "value": 0.5
+        },
+        {
+          "id": 102,
+          "value": 0.5
+        },
+        {
+          "id": 103,
+          "value": 0.5
+        },
+        {
+          "id": 104,
+          "value": 0.0
+        },
+        {
+          "id": 105,
+          "value": 0.0
+        },
+        {
+          "id": 106,
+          "value": 0.0
+        },
+        {
+          "id": 107,
+          "value": 0.0
+        },
+        {
+          "id": 108,
+          "value": 0.0
+        },
+        {
+          "id": 109,
+          "value": 0.0
+        },
+        {
+          "id": 110,
+          "value": 0.0
+        },
+        {
+          "id": 111,
+          "value": 0.0
+        },
+        {
+          "id": 112,
+          "value": 0.0
+        },
+        {
+          "id": 113,
+          "value": 0.0
+        },
+        {
+          "id": 114,
+          "value": 0.0
+        },
+        {
+          "id": 115,
+          "value": 0.0
+        },
+        {
+          "id": 116,
+          "value": 0.0
+        },
+        {
+          "id": 117,
+          "value": 0.0
+        },
+        {
+          "id": 118,
+          "value": 0.0
+        },
+        {
+          "id": 119,
+          "value": 0.0
+        },
+        {
+          "id": 120,
+          "value": 1.0
+        },
+        {
+          "id": 121,
+          "value": 1.0
+        },
+        {
+          "id": 122,
+          "value": 0.0
+        },
+        {
+          "id": 123,
+          "value": 1.0
+        },
+        {
+          "id": 124,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 4164,
+      "rightModuleId": 4143,
+      "data": {
+        "m_files_array0": [
+          "/home/michael/Art/audio/grains/earth/bowl closed hat.wav",
+          "/home/michael/Art/audio/grains/earth/bowl hat med.wav",
+          "/home/michael/Art/audio/grains/earth/bowl high.wav",
+          "/home/michael/Art/audio/grains/earth/bowl hit med.wav",
+          "/home/michael/Art/audio/grains/earth/bowl kick high.wav",
+          "/home/michael/Art/audio/grains/earth/bowl med hat.wav",
+          "/home/michael/Art/audio/grains/earth/bowl ruckus clasp.wav",
+          "/home/michael/Art/audio/grains/earth/bowl ruckus hit 0.wav",
+          "/home/michael/Art/audio/grains/earth/bowl ruckus hit tang.wav",
+          "/home/michael/Art/audio/grains/earth/bowl ruckus hit.wav",
+          "/home/michael/Art/audio/grains/earth/bowl ruckus noise.wav",
+          "/home/michael/Art/audio/grains/earth/bowl tang low.wav",
+          "/home/michael/Art/audio/grains/earth/bowl tang.wav",
+          "/home/michael/Art/audio/grains/earth/bowl wiggle hat.wav",
+          "/home/michael/Art/audio/grains/earth/bowl wiggle high.wav",
+          "/home/michael/Art/audio/grains/earth/bowl wiggle hit .wav",
+          "/home/michael/Art/audio/grains/earth/bowl wiggle hit low.wav",
+          "/home/michael/Art/audio/grains/earth/clickle rythm.wav",
+          "/home/michael/Art/audio/grains/earth/construction beams.wav",
+          "/home/michael/Art/audio/grains/earth/death of a TV.wav",
+          "/home/michael/Art/audio/grains/earth/descending.wav",
+          "/home/michael/Art/audio/grains/earth/door closing .wav",
+          "/home/michael/Art/audio/grains/earth/doors and gates.wav",
+          "/home/michael/Art/audio/grains/earth/dumpster hit.wav",
+          "/home/michael/Art/audio/grains/earth/fast flutter.wav",
+          "/home/michael/Art/audio/grains/earth/flutter 2.wav",
+          "/home/michael/Art/audio/grains/earth/flutter 3.wav",
+          "/home/michael/Art/audio/grains/earth/flutter.wav",
+          "/home/michael/Art/audio/grains/earth/glass impacts.wav",
+          "/home/michael/Art/audio/grains/earth/glass into bucket shakier.wav",
+          "/home/michael/Art/audio/grains/earth/glass into bucket.wav",
+          "/home/michael/Art/audio/grains/earth/harm a 3.wav",
+          "/home/michael/Art/audio/grains/earth/harmonics after fix.wav",
+          "/home/michael/Art/audio/grains/earth/harmonicsafter 2.wav",
+          "/home/michael/Art/audio/grains/earth/leaves.wav",
+          "/home/michael/Art/audio/grains/earth/meat impact.wav",
+          "/home/michael/Art/audio/grains/earth/med rock collisions.wav",
+          "/home/michael/Art/audio/grains/earth/metal disk impacts.wav",
+          "/home/michael/Art/audio/grains/earth/noise rock collisions wet.wav",
+          "/home/michael/Art/audio/grains/earth/noise rock collisions.wav",
+          "/home/michael/Art/audio/grains/earth/rain on metal 2.wav",
+          "/home/michael/Art/audio/grains/earth/rain on metal.wav",
+          "/home/michael/Art/audio/grains/earth/random notes.wav",
+          "/home/michael/Art/audio/grains/earth/ride.wav",
+          "/home/michael/Art/audio/grains/earth/rock clap high.wav",
+          "/home/michael/Art/audio/grains/earth/rock collisions high.wav",
+          "/home/michael/Art/audio/grains/earth/rock collisions low.wav",
+          "/home/michael/Art/audio/grains/earth/rock collisions med.wav",
+          "/home/michael/Art/audio/grains/earth/rock into bowl high.wav",
+          "/home/michael/Art/audio/grains/earth/rock into bowl low.wav",
+          "/home/michael/Art/audio/grains/earth/rock into bowl med.wav",
+          "/home/michael/Art/audio/grains/earth/rocks bowl swish.wav",
+          "/home/michael/Art/audio/grains/earth/short flutter.wav",
+          "/home/michael/Art/audio/grains/earth/simple click.wav",
+          "/home/michael/Art/audio/grains/earth/single large.wav",
+          "/home/michael/Art/audio/grains/earth/single long.wav",
+          "/home/michael/Art/audio/grains/earth/single.wav",
+          "/home/michael/Art/audio/grains/earth/snow noise hit 2.wav",
+          "/home/michael/Art/audio/grains/earth/snow noise hit 3.wav",
+          "/home/michael/Art/audio/grains/earth/snow noise hit 4.wav",
+          "/home/michael/Art/audio/grains/earth/snow noise hit 5.wav",
+          "/home/michael/Art/audio/grains/earth/snow noise hit.wav",
+          "/home/michael/Art/audio/grains/earth/snow noise peck.wav",
+          "/home/michael/Art/audio/grains/earth/snow steps.wav",
+          "/home/michael/Art/audio/grains/earth/ting.wav",
+          "/home/michael/Art/audio/grains/earth/unimpress leave.wav",
+          "/home/michael/Art/audio/grains/earth/water glass.wav",
+          "/home/michael/Art/audio/grains/earth/water hit.wav",
+          "/home/michael/Art/audio/grains/earth/waterjug wiggle.wav",
+          "/home/michael/Art/audio/grains/earth/waterjug.wav"
+        ],
+        "m_files_array1": [
+          "/home/michael/Art/audio/grains/synthetic/analog pulse.wav",
+          "/home/michael/Art/audio/grains/synthetic/analog saw.wav",
+          "/home/michael/Art/audio/grains/synthetic/analog triangle.wav",
+          "/home/michael/Art/audio/grains/synthetic/bouncy purrs harmonic.wav",
+          "/home/michael/Art/audio/grains/synthetic/bouncy purrs slendro.wav",
+          "/home/michael/Art/audio/grains/synthetic/edchord.wav",
+          "/home/michael/Art/audio/grains/synthetic/ervoice.wav",
+          "/home/michael/Art/audio/grains/synthetic/eternal aaahhh.wav",
+          "/home/michael/Art/audio/grains/synthetic/fm cloud.wav",
+          "/home/michael/Art/audio/grains/synthetic/four harmonics.wav",
+          "/home/michael/Art/audio/grains/synthetic/moody strum.wav",
+          "/home/michael/Art/audio/grains/synthetic/noise, four bands.wav",
+          "/home/michael/Art/audio/grains/synthetic/noise, pink to white.wav",
+          "/home/michael/Art/audio/grains/synthetic/noisy cloud harmonics.wav",
+          "/home/michael/Art/audio/grains/synthetic/radio static.wav",
+          "/home/michael/Art/audio/grains/synthetic/shaking machinery resonance.wav",
+          "/home/michael/Art/audio/grains/synthetic/shred.wav",
+          "/home/michael/Art/audio/grains/synthetic/sine cloud harmonics.wav",
+          "/home/michael/Art/audio/grains/synthetic/sine cloud wobbly.wav",
+          "/home/michael/Art/audio/grains/synthetic/sine cloud, ji7.wav",
+          "/home/michael/Art/audio/grains/synthetic/sine to saw.wav",
+          "/home/michael/Art/audio/grains/synthetic/sine to square.wav",
+          "/home/michael/Art/audio/grains/synthetic/sine.wav",
+          "/home/michael/Art/audio/grains/synthetic/synthetic ants.wav",
+          "/home/michael/Art/audio/grains/synthetic/tension.wav",
+          "/home/michael/Art/audio/grains/synthetic/washing machine multi part sequence.wav",
+          "/home/michael/Art/audio/grains/synthetic/washing machine sloshing resonance.wav",
+          "/home/michael/Art/audio/grains/synthetic/washing machine wind down.wav"
+        ],
+        "m_files_array2": [
+          "/home/michael/Art/audio/grains/earth/bowl closed hat.wav",
+          "/home/michael/Art/audio/grains/earth/bowl hat med.wav",
+          "/home/michael/Art/audio/grains/earth/bowl high.wav",
+          "/home/michael/Art/audio/grains/earth/bowl hit med.wav",
+          "/home/michael/Art/audio/grains/earth/bowl kick high.wav",
+          "/home/michael/Art/audio/grains/earth/bowl med hat.wav",
+          "/home/michael/Art/audio/grains/earth/bowl ruckus clasp.wav",
+          "/home/michael/Art/audio/grains/earth/bowl ruckus hit 0.wav",
+          "/home/michael/Art/audio/grains/earth/bowl ruckus hit tang.wav",
+          "/home/michael/Art/audio/grains/earth/bowl ruckus hit.wav",
+          "/home/michael/Art/audio/grains/earth/bowl ruckus noise.wav",
+          "/home/michael/Art/audio/grains/earth/bowl tang low.wav",
+          "/home/michael/Art/audio/grains/earth/bowl tang.wav",
+          "/home/michael/Art/audio/grains/earth/bowl wiggle hat.wav",
+          "/home/michael/Art/audio/grains/earth/bowl wiggle high.wav",
+          "/home/michael/Art/audio/grains/earth/bowl wiggle hit .wav",
+          "/home/michael/Art/audio/grains/earth/bowl wiggle hit low.wav",
+          "/home/michael/Art/audio/grains/earth/clickle rythm.wav",
+          "/home/michael/Art/audio/grains/earth/construction beams.wav",
+          "/home/michael/Art/audio/grains/earth/death of a TV.wav",
+          "/home/michael/Art/audio/grains/earth/descending.wav",
+          "/home/michael/Art/audio/grains/earth/door closing .wav",
+          "/home/michael/Art/audio/grains/earth/doors and gates.wav",
+          "/home/michael/Art/audio/grains/earth/dumpster hit.wav",
+          "/home/michael/Art/audio/grains/earth/fast flutter.wav",
+          "/home/michael/Art/audio/grains/earth/flutter 2.wav",
+          "/home/michael/Art/audio/grains/earth/flutter 3.wav",
+          "/home/michael/Art/audio/grains/earth/flutter.wav",
+          "/home/michael/Art/audio/grains/earth/glass impacts.wav",
+          "/home/michael/Art/audio/grains/earth/glass into bucket shakier.wav",
+          "/home/michael/Art/audio/grains/earth/glass into bucket.wav",
+          "/home/michael/Art/audio/grains/earth/harm a 3.wav",
+          "/home/michael/Art/audio/grains/earth/harmonics after fix.wav",
+          "/home/michael/Art/audio/grains/earth/harmonicsafter 2.wav",
+          "/home/michael/Art/audio/grains/earth/leaves.wav",
+          "/home/michael/Art/audio/grains/earth/meat impact.wav",
+          "/home/michael/Art/audio/grains/earth/med rock collisions.wav",
+          "/home/michael/Art/audio/grains/earth/metal disk impacts.wav",
+          "/home/michael/Art/audio/grains/earth/noise rock collisions wet.wav",
+          "/home/michael/Art/audio/grains/earth/noise rock collisions.wav",
+          "/home/michael/Art/audio/grains/earth/rain on metal 2.wav",
+          "/home/michael/Art/audio/grains/earth/rain on metal.wav",
+          "/home/michael/Art/audio/grains/earth/random notes.wav",
+          "/home/michael/Art/audio/grains/earth/ride.wav",
+          "/home/michael/Art/audio/grains/earth/rock clap high.wav",
+          "/home/michael/Art/audio/grains/earth/rock collisions high.wav",
+          "/home/michael/Art/audio/grains/earth/rock collisions low.wav",
+          "/home/michael/Art/audio/grains/earth/rock collisions med.wav",
+          "/home/michael/Art/audio/grains/earth/rock into bowl high.wav",
+          "/home/michael/Art/audio/grains/earth/rock into bowl low.wav",
+          "/home/michael/Art/audio/grains/earth/rock into bowl med.wav",
+          "/home/michael/Art/audio/grains/earth/rocks bowl swish.wav",
+          "/home/michael/Art/audio/grains/earth/short flutter.wav",
+          "/home/michael/Art/audio/grains/earth/simple click.wav",
+          "/home/michael/Art/audio/grains/earth/single large.wav",
+          "/home/michael/Art/audio/grains/earth/single long.wav",
+          "/home/michael/Art/audio/grains/earth/single.wav",
+          "/home/michael/Art/audio/grains/earth/snow noise hit 2.wav",
+          "/home/michael/Art/audio/grains/earth/snow noise hit 3.wav",
+          "/home/michael/Art/audio/grains/earth/snow noise hit 4.wav",
+          "/home/michael/Art/audio/grains/earth/snow noise hit 5.wav",
+          "/home/michael/Art/audio/grains/earth/snow noise hit.wav",
+          "/home/michael/Art/audio/grains/earth/snow noise peck.wav",
+          "/home/michael/Art/audio/grains/earth/snow steps.wav",
+          "/home/michael/Art/audio/grains/earth/ting.wav",
+          "/home/michael/Art/audio/grains/earth/unimpress leave.wav",
+          "/home/michael/Art/audio/grains/earth/water glass.wav",
+          "/home/michael/Art/audio/grains/earth/water hit.wav",
+          "/home/michael/Art/audio/grains/earth/waterjug wiggle.wav",
+          "/home/michael/Art/audio/grains/earth/waterjug.wav"
+        ],
+        "m_files_array3": [
+          "/home/michael/Art/audio/grains/water/bubbles.wav",
+          "/home/michael/Art/audio/grains/water/creek.wav",
+          "/home/michael/Art/audio/grains/water/river flow noise.wav",
+          "/home/michael/Art/audio/grains/water/river flow watery.wav",
+          "/home/michael/Art/audio/grains/water/splashes.wav",
+          "/home/michael/Art/audio/grains/water/stream.wav",
+          "/home/michael/Art/audio/grains/water/waves on pebbles on wreck.wav",
+          "/home/michael/Art/audio/grains/water/wet ice.wav"
+        ],
+        "m_files_array4": [
+          "/home/michael/Art/audio/grains/fire/crackle.wav",
+          "/home/michael/Art/audio/grains/fire/drill.wav",
+          "/home/michael/Art/audio/grains/fire/espresso machine.wav",
+          "/home/michael/Art/audio/grains/fire/firework.wav",
+          "/home/michael/Art/audio/grains/fire/ratchet.wav",
+          "/home/michael/Art/audio/grains/fire/scrapes.wav",
+          "/home/michael/Art/audio/grains/fire/stencil machine.wav",
+          "/home/michael/Art/audio/grains/fire/tube crackle.wav",
+          "/home/michael/Art/audio/grains/fire/vinyl transients.wav"
+        ],
+        "m_files_array5": [
+          "/home/michael/Art/audio/grains/quintessence/fan.wav",
+          "/home/michael/Art/audio/grains/quintessence/fan2.wav",
+          "/home/michael/Art/audio/grains/quintessence/low oscillator siney.wav",
+          "/home/michael/Art/audio/grains/quintessence/noise, four bands.wav",
+          "/home/michael/Art/audio/grains/quintessence/noise, pink to white.wav",
+          "/home/michael/Art/audio/grains/quintessence/radio noise scrape.wav",
+          "/home/michael/Art/audio/grains/quintessence/radio static.wav",
+          "/home/michael/Art/audio/grains/quintessence/these cars sound like waves.wav",
+          "/home/michael/Art/audio/grains/quintessence/ugly noise.wav"
+        ],
+        "m_files_array6": [
+          "/home/michael/Art/audio/grains/air/arf!.wav",
+          "/home/michael/Art/audio/grains/air/bike pump.wav",
+          "/home/michael/Art/audio/grains/air/bird call flutter high.wav",
+          "/home/michael/Art/audio/grains/air/bird call note repeat high.wav",
+          "/home/michael/Art/audio/grains/air/bird call sequence high.wav",
+          "/home/michael/Art/audio/grains/air/bird fast repeating chirp.wav",
+          "/home/michael/Art/audio/grains/air/birds high .wav",
+          "/home/michael/Art/audio/grains/air/blown bottle.wav",
+          "/home/michael/Art/audio/grains/air/breathy tube.wav",
+          "/home/michael/Art/audio/grains/air/bullshit sage advice .wav",
+          "/home/michael/Art/audio/grains/air/cats.wav",
+          "/home/michael/Art/audio/grains/air/chickens.wav",
+          "/home/michael/Art/audio/grains/air/compressor hiss.wav",
+          "/home/michael/Art/audio/grains/air/crickets.wav",
+          "/home/michael/Art/audio/grains/air/crow storm to pond cacophony.wav",
+          "/home/michael/Art/audio/grains/air/crows.wav",
+          "/home/michael/Art/audio/grains/air/distant kid envelope goose.wav",
+          "/home/michael/Art/audio/grains/air/distant kid envelope pecker goose.wav",
+          "/home/michael/Art/audio/grains/air/distant kid envelope.wav",
+          "/home/michael/Art/audio/grains/air/dogs.wav",
+          "/home/michael/Art/audio/grains/air/frog stream.wav",
+          "/home/michael/Art/audio/grains/air/frogs roar.wav",
+          "/home/michael/Art/audio/grains/air/geese.wav",
+          "/home/michael/Art/audio/grains/air/goose call.wav",
+          "/home/michael/Art/audio/grains/air/high chop melody birds morning sidewalk.wav",
+          "/home/michael/Art/audio/grains/air/huygens.wav",
+          "/home/michael/Art/audio/grains/air/just a bit of birds in the morning on the sidewalk.wav",
+          "/home/michael/Art/audio/grains/air/owl.wav",
+          "/home/michael/Art/audio/grains/air/portland-trains.wav",
+          "/home/michael/Art/audio/grains/air/protest at ubc indegenous wooooo.wav",
+          "/home/michael/Art/audio/grains/air/pump.wav",
+          "/home/michael/Art/audio/grains/air/reverb stairway glock 2.wav",
+          "/home/michael/Art/audio/grains/air/reverb stairway glock multiple.wav",
+          "/home/michael/Art/audio/grains/air/reverb stairway voices.wav",
+          "/home/michael/Art/audio/grains/air/river.wav",
+          "/home/michael/Art/audio/grains/air/squeaky pump.wav",
+          "/home/michael/Art/audio/grains/air/train ambience.wav",
+          "/home/michael/Art/audio/grains/air/train horn cluttered.wav",
+          "/home/michael/Art/audio/grains/air/train horn.wav",
+          "/home/michael/Art/audio/grains/air/two note melody bird.wav",
+          "/home/michael/Art/audio/grains/air/ubco door opening.wav",
+          "/home/michael/Art/audio/grains/air/voice clock stairway.wav",
+          "/home/michael/Art/audio/grains/air/wind.wav",
+          "/home/michael/Art/audio/grains/air/wolves at night or scraping very ethereal scary.wav",
+          "/home/michael/Art/audio/grains/air/wolves or scraping at night 2 less constants.wav"
+        ],
+        "m_files_array7": [
+          "/home/michael/Art/audio/grains/magma/beads.wav",
+          "/home/michael/Art/audio/grains/magma/broken light static.wav",
+          "/home/michael/Art/audio/grains/magma/broken motor.wav",
+          "/home/michael/Art/audio/grains/magma/clickles.wav",
+          "/home/michael/Art/audio/grains/magma/clickling shuffling rocks in hand.wav",
+          "/home/michael/Art/audio/grains/magma/crackle box.wav",
+          "/home/michael/Art/audio/grains/magma/creaky door.wav",
+          "/home/michael/Art/audio/grains/magma/creaky floor.wav",
+          "/home/michael/Art/audio/grains/magma/doorway.wav",
+          "/home/michael/Art/audio/grains/magma/garage drag.wav",
+          "/home/michael/Art/audio/grains/magma/glass scrapes.wav",
+          "/home/michael/Art/audio/grains/magma/guiro.wav",
+          "/home/michael/Art/audio/grains/magma/sand.wav",
+          "/home/michael/Art/audio/grains/magma/small rock collisions 1.wav",
+          "/home/michael/Art/audio/grains/magma/small rock collisions 2.wav",
+          "/home/michael/Art/audio/grains/magma/small rocks throw more.wav",
+          "/home/michael/Art/audio/grains/magma/small rocks throw.wav",
+          "/home/michael/Art/audio/grains/magma/wood pecker.wav",
+          "/home/michael/Art/audio/grains/magma/zipper and ruffling long.wav",
+          "/home/michael/Art/audio/grains/magma/zipper high bsywoo.wav",
+          "/home/michael/Art/audio/grains/magma/zipper ruffling noise.wav",
+          "/home/michael/Art/audio/grains/magma/zipper short.wav"
+        ],
+        "m_original_file_name_array": [
+          "bowl closed hat.wav",
+          "analog triangle.wav",
+          "bowl closed hat.wav",
+          "bubbles.wav",
+          "espresso machine.wav",
+          "low oscillator siney.wav",
+          "arf!.wav",
+          "beads.wav"
+        ],
+        "m_original_filepath_array": [
+          "/home/michael/Art/audio/grains/earth/bowl closed hat.wav",
+          "/home/michael/Art/audio/grains/synthetic/analog triangle.wav",
+          "/home/michael/Art/audio/grains/earth/bowl closed hat.wav",
+          "/home/michael/Art/audio/grains/water/bubbles.wav",
+          "/home/michael/Art/audio/grains/fire/espresso machine.wav",
+          "/home/michael/Art/audio/grains/quintessence/low oscillator siney.wav",
+          "/home/michael/Art/audio/grains/air/arf!.wav",
+          "/home/michael/Art/audio/grains/magma/beads.wav"
+        ],
+        "PA_START_SELECTION_value_array": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "PA_END_SELECTION_value_array": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "m_gated_array": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "m_cycled_array": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "m_active_array": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "slice_start_array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          115294,
+          0
+        ],
+        "slice_end_array": [
+          21290,
+          661,
+          21662,
+          269218,
+          309468,
+          1167313,
+          156612,
+          831049
+        ],
+        "m_show_channels": 0,
+        "m_show_time_mode": 0,
+        "m_start_and_lenght_mode": false,
+        "m_color_scheme_2": true,
+        "m_busy_mode_array": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "id": 4143,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-AnalyzerXL",
+      "params": [],
+      "leftModuleId": 4089,
+      "rightModuleId": 4155,
+      "data": {
+        "range": 0.0,
+        "range_db": 80.0,
+        "smooth": 0.25,
+        "quality": "good",
+        "window": "hamming"
+      }
+    },
+    {
+      "id": 4155,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "Merge8",
+      "params": [],
+      "leftModuleId": 4143,
+      "rightModuleId": 4156,
+      "data": {
+        "channels": -1
+      }
+    },
+    {
+      "id": 4156,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "Merge8",
+      "params": [],
+      "leftModuleId": 4155,
+      "rightModuleId": 4104,
+      "data": {
+        "channels": -1
+      }
+    },
+    {
+      "id": 4104,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Sums",
+      "params": [],
+      "leftModuleId": 4156,
+      "rightModuleId": 4171,
+      "data": {
+        "disableOutputLimit": false
+      }
+    },
+    {
+      "id": 4171,
+      "plugin": "SurgeRack",
+      "version": "1.beta1.4",
+      "model": "SurgeWaveShaper",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 4104,
+      "rightModuleId": 4142,
+      "data": {
+        "comment": "No Comment",
+        "buildInfo": "os:linux pluggit: surgegit: buildtime=Nov 16 2019 15:30:46"
+      }
+    },
+    {
+      "id": 4142,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Offset",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.21600008
+        },
+        {
+          "id": 1,
+          "value": 0.316229999
+        }
+      ],
+      "leftModuleId": 4171,
+      "rightModuleId": 4136,
+      "data": {
+        "disableOutputLimit": false
+      }
+    },
+    {
+      "id": 4136,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Offset",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": -0.259770036
+        }
+      ],
+      "leftModuleId": 4142,
+      "rightModuleId": 4110,
+      "data": {
+        "disableOutputLimit": false
+      }
+    },
+    {
+      "id": 4110,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-VCF",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0314999931
+        },
+        {
+          "id": 1,
+          "value": 0.508000016
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 2.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 4136,
+      "rightModuleId": 4159,
+      "data": {
+        "bandwidthMode": "pitched"
+      }
+    },
+    {
+      "id": 4159,
+      "plugin": "23volts",
+      "version": "1.1.5",
+      "model": "Split8",
+      "params": [],
+      "leftModuleId": 4110,
+      "rightModuleId": 4103
+    },
+    {
+      "id": 4103,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.1",
+      "model": "MetroCityBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": -0.970200241
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.752399981
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 4159,
+      "data": {
+        "input_on": 1,
+        "reverse_poly": 0,
+        "blue_post_fade": 0,
+        "orange_post_fade": 0,
+        "gain": 1.0,
+        "level_cv_filter": 1,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 0
+      }
+    }
+  ],
+  "rightWidth": 3105.0,
+  "leftModules": [
+    {
+      "id": 4101,
+      "plugin": "LittleUtils",
+      "version": "1.0.3",
+      "model": "TeleportOut",
+      "params": [],
+      "rightModuleId": 3772,
+      "data": {
+        "label": "PLAY"
+      }
+    }
+  ],
+  "leftWidth": 45.0,
+  "cables": [
+    {
+      "outputModuleId": 4073,
+      "outputId": 0,
+      "inputModuleId": 4074,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4074,
+      "outputId": 3,
+      "inputModuleId": 4075,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4075,
+      "outputId": 0,
+      "inputModuleId": 4076,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4075,
+      "outputId": 1,
+      "inputModuleId": 4077,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4075,
+      "outputId": 2,
+      "inputModuleId": 4078,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4075,
+      "outputId": 3,
+      "inputModuleId": 4105,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4075,
+      "outputId": 4,
+      "inputModuleId": 4106,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4079,
+      "outputId": 0,
+      "inputModuleId": 4080,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4079,
+      "outputId": 1,
+      "inputModuleId": 4081,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4079,
+      "outputId": 2,
+      "inputModuleId": 4107,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4079,
+      "outputId": 3,
+      "inputModuleId": 4080,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4079,
+      "outputId": 4,
+      "inputModuleId": 4081,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4080,
+      "outputId": 0,
+      "inputModuleId": 4140,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4080,
+      "outputId": 1,
+      "inputModuleId": 4110,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4076,
+      "outputId": 0,
+      "inputModuleId": 4080,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4077,
+      "outputId": 0,
+      "inputModuleId": 4081,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4078,
+      "outputId": 0,
+      "inputModuleId": 4107,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4081,
+      "outputId": 0,
+      "inputModuleId": 4128,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4081,
+      "outputId": 0,
+      "inputModuleId": 4161,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4081,
+      "outputId": 1,
+      "inputModuleId": 4136,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4081,
+      "outputId": 1,
+      "inputModuleId": 4142,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 0,
+      "inputModuleId": 4155,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 8,
+      "inputModuleId": 4156,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 1,
+      "inputModuleId": 4155,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 9,
+      "inputModuleId": 4156,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 2,
+      "inputModuleId": 4155,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 10,
+      "inputModuleId": 4156,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 3,
+      "inputModuleId": 4155,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 11,
+      "inputModuleId": 4156,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 4,
+      "inputModuleId": 4155,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 12,
+      "inputModuleId": 4156,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 5,
+      "inputModuleId": 4155,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 13,
+      "inputModuleId": 4156,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 6,
+      "inputModuleId": 4155,
+      "inputId": 6,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 14,
+      "inputModuleId": 4156,
+      "inputId": 6,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 7,
+      "inputModuleId": 4155,
+      "inputId": 7,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4089,
+      "outputId": 15,
+      "inputModuleId": 4156,
+      "inputId": 7,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4101,
+      "outputId": 0,
+      "inputModuleId": 4153,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 4101,
+      "outputId": 1,
+      "inputModuleId": 4148,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4101,
+      "outputId": 4,
+      "inputModuleId": 4151,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4101,
+      "outputId": 5,
+      "inputModuleId": 4149,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4101,
+      "outputId": 7,
+      "inputModuleId": 4073,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4101,
+      "outputId": 7,
+      "inputModuleId": 4074,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4101,
+      "outputId": 7,
+      "inputModuleId": 4079,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4104,
+      "outputId": 2,
+      "inputModuleId": 4171,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4105,
+      "outputId": 0,
+      "inputModuleId": 4080,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4106,
+      "outputId": 0,
+      "inputModuleId": 4081,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4107,
+      "outputId": 0,
+      "inputModuleId": 4127,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4110,
+      "outputId": 0,
+      "inputModuleId": 4103,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4110,
+      "outputId": 0,
+      "inputModuleId": 4159,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4127,
+      "outputId": 0,
+      "inputModuleId": 4128,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4128,
+      "outputId": 0,
+      "inputModuleId": 4163,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4136,
+      "outputId": 0,
+      "inputModuleId": 4110,
+      "inputId": 5,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4140,
+      "outputId": 0,
+      "inputModuleId": 4160,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4142,
+      "outputId": 0,
+      "inputModuleId": 4110,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4145,
+      "outputId": 2,
+      "inputModuleId": 4106,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4145,
+      "outputId": 2,
+      "inputModuleId": 4105,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4145,
+      "outputId": 2,
+      "inputModuleId": 4078,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4145,
+      "outputId": 2,
+      "inputModuleId": 4077,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4145,
+      "outputId": 2,
+      "inputModuleId": 4076,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4145,
+      "outputId": 2,
+      "inputModuleId": 4165,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4148,
+      "outputId": 0,
+      "inputModuleId": 4145,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4148,
+      "outputId": 1,
+      "inputModuleId": 4145,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4149,
+      "outputId": 0,
+      "inputModuleId": 4150,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4149,
+      "outputId": 1,
+      "inputModuleId": 4150,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4150,
+      "outputId": 2,
+      "inputModuleId": 4164,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4151,
+      "outputId": 0,
+      "inputModuleId": 4152,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4151,
+      "outputId": 1,
+      "inputModuleId": 4152,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4152,
+      "outputId": 2,
+      "inputModuleId": 4171,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4153,
+      "outputId": 0,
+      "inputModuleId": 4154,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 4153,
+      "outputId": 1,
+      "inputModuleId": 4154,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 4154,
+      "outputId": 2,
+      "inputModuleId": 4166,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 4155,
+      "outputId": 0,
+      "inputModuleId": 4104,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4156,
+      "outputId": 0,
+      "inputModuleId": 4104,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4159,
+      "outputId": 0,
+      "inputModuleId": 4143,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4159,
+      "outputId": 1,
+      "inputModuleId": 4143,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4159,
+      "outputId": 2,
+      "inputModuleId": 4143,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4159,
+      "outputId": 3,
+      "inputModuleId": 4143,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4159,
+      "outputId": 4,
+      "inputModuleId": 4143,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4159,
+      "outputId": 5,
+      "inputModuleId": 4143,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4159,
+      "outputId": 6,
+      "inputModuleId": 4143,
+      "inputId": 6,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4159,
+      "outputId": 7,
+      "inputModuleId": 4143,
+      "inputId": 7,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 4160,
+      "outputId": 0,
+      "inputModuleId": 4089,
+      "inputId": 80,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4160,
+      "outputId": 1,
+      "inputModuleId": 4089,
+      "inputId": 81,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4160,
+      "outputId": 2,
+      "inputModuleId": 4089,
+      "inputId": 82,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4160,
+      "outputId": 3,
+      "inputModuleId": 4089,
+      "inputId": 83,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4160,
+      "outputId": 4,
+      "inputModuleId": 4089,
+      "inputId": 84,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4160,
+      "outputId": 5,
+      "inputModuleId": 4089,
+      "inputId": 85,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4160,
+      "outputId": 6,
+      "inputModuleId": 4089,
+      "inputId": 86,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4160,
+      "outputId": 7,
+      "inputModuleId": 4089,
+      "inputId": 87,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4161,
+      "outputId": 0,
+      "inputModuleId": 4089,
+      "inputId": 40,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4161,
+      "outputId": 1,
+      "inputModuleId": 4089,
+      "inputId": 41,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4161,
+      "outputId": 2,
+      "inputModuleId": 4089,
+      "inputId": 42,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4161,
+      "outputId": 3,
+      "inputModuleId": 4089,
+      "inputId": 43,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4161,
+      "outputId": 4,
+      "inputModuleId": 4089,
+      "inputId": 44,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4161,
+      "outputId": 5,
+      "inputModuleId": 4089,
+      "inputId": 45,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4161,
+      "outputId": 6,
+      "inputModuleId": 4089,
+      "inputId": 46,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4161,
+      "outputId": 7,
+      "inputModuleId": 4089,
+      "inputId": 47,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4163,
+      "outputId": 0,
+      "inputModuleId": 4089,
+      "inputId": 48,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4163,
+      "outputId": 1,
+      "inputModuleId": 4089,
+      "inputId": 49,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4163,
+      "outputId": 2,
+      "inputModuleId": 4089,
+      "inputId": 50,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4163,
+      "outputId": 3,
+      "inputModuleId": 4089,
+      "inputId": 51,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4163,
+      "outputId": 4,
+      "inputModuleId": 4089,
+      "inputId": 52,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4163,
+      "outputId": 5,
+      "inputModuleId": 4089,
+      "inputId": 53,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4163,
+      "outputId": 6,
+      "inputModuleId": 4089,
+      "inputId": 54,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4163,
+      "outputId": 7,
+      "inputModuleId": 4089,
+      "inputId": 55,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4164,
+      "outputId": 0,
+      "inputModuleId": 4089,
+      "inputId": 64,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4164,
+      "outputId": 1,
+      "inputModuleId": 4089,
+      "inputId": 65,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4164,
+      "outputId": 2,
+      "inputModuleId": 4089,
+      "inputId": 66,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4164,
+      "outputId": 3,
+      "inputModuleId": 4089,
+      "inputId": 67,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4164,
+      "outputId": 4,
+      "inputModuleId": 4089,
+      "inputId": 68,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4164,
+      "outputId": 5,
+      "inputModuleId": 4089,
+      "inputId": 69,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4164,
+      "outputId": 6,
+      "inputModuleId": 4089,
+      "inputId": 70,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4164,
+      "outputId": 7,
+      "inputModuleId": 4089,
+      "inputId": 71,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 4165,
+      "outputId": 0,
+      "inputModuleId": 4089,
+      "inputId": 24,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4165,
+      "outputId": 1,
+      "inputModuleId": 4089,
+      "inputId": 25,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4165,
+      "outputId": 2,
+      "inputModuleId": 4089,
+      "inputId": 26,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4165,
+      "outputId": 3,
+      "inputModuleId": 4089,
+      "inputId": 27,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4165,
+      "outputId": 4,
+      "inputModuleId": 4089,
+      "inputId": 28,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4165,
+      "outputId": 5,
+      "inputModuleId": 4089,
+      "inputId": 29,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4165,
+      "outputId": 6,
+      "inputModuleId": 4089,
+      "inputId": 30,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4165,
+      "outputId": 7,
+      "inputModuleId": 4089,
+      "inputId": 31,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 4166,
+      "outputId": 0,
+      "inputModuleId": 4089,
+      "inputId": 72,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 4166,
+      "outputId": 1,
+      "inputModuleId": 4089,
+      "inputId": 73,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 4166,
+      "outputId": 2,
+      "inputModuleId": 4089,
+      "inputId": 74,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 4166,
+      "outputId": 3,
+      "inputModuleId": 4089,
+      "inputId": 75,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 4166,
+      "outputId": 4,
+      "inputModuleId": 4089,
+      "inputId": 76,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 4166,
+      "outputId": 5,
+      "inputModuleId": 4089,
+      "inputId": 77,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 4166,
+      "outputId": 6,
+      "inputModuleId": 4089,
+      "inputId": 78,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 4166,
+      "outputId": 7,
+      "inputModuleId": 4089,
+      "inputId": 79,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 4171,
+      "outputId": 0,
+      "inputModuleId": 4110,
+      "inputId": 3,
+      "color": "#0c8e15"
+    }
+  ],
+  "version": "1.1.6"
+}

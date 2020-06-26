@@ -1,0 +1,278 @@
+{
+  "stripVersion": 1,
+  "rightModules": [
+    {
+      "id": 2664,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.1",
+      "model": "Road",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 2914,
+      "rightModuleId": 2663,
+      "data": {
+        "onau_1": 1,
+        "onau_2": 1,
+        "onau_3": 1,
+        "onau_4": 1,
+        "onau_5": 1,
+        "onau_6": 1,
+        "auditioning": 0,
+        "bus_audition1": 0,
+        "bus_audition2": 0,
+        "bus_audition3": 0,
+        "bus_audition4": 0,
+        "bus_audition5": 0,
+        "bus_audition6": 0,
+        "temped1": 0,
+        "temped2": 0,
+        "temped3": 0,
+        "temped4": 0,
+        "temped5": 0,
+        "temped6": 0,
+        "color_theme": 0
+      }
+    },
+    {
+      "id": 2663,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.1",
+      "model": "BusDepot",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.43569991
+        },
+        {
+          "id": 3,
+          "value": 26.0
+        },
+        {
+          "id": 4,
+          "value": 26.0
+        }
+      ],
+      "leftModuleId": 2664,
+      "rightModuleId": 2659,
+      "data": {
+        "input_on": 1,
+        "level_cv_filter": 1,
+        "color_theme": 0,
+        "fade_cv_mode": 0,
+        "audition_depot": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "audition_mode": 0
+      }
+    },
+    {
+      "id": 2659,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Pressor",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.755000591
+        },
+        {
+          "id": 1,
+          "value": 0.551590025
+        },
+        {
+          "id": 2,
+          "value": 0.316229999
+        },
+        {
+          "id": 3,
+          "value": 0.316229999
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": -0.0839999914
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": 1.0
+        },
+        {
+          "id": 9,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 2663,
+      "rightModuleId": 2660
+    },
+    {
+      "id": 2660,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 2659,
+      "rightModuleId": 2661,
+      "data": {
+        "audio": {
+          "driver": 4,
+          "deviceName": "system",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 256
+        }
+      }
+    },
+    {
+      "id": 2661,
+      "plugin": "LittleUtils",
+      "version": "1.0.3",
+      "model": "TeleportIn",
+      "params": [],
+      "leftModuleId": 2660,
+      "data": {
+        "label": "IN"
+      }
+    }
+  ],
+  "rightWidth": 555.0,
+  "leftModules": [],
+  "leftWidth": 0.0,
+  "cables": [
+    {
+      "outputModuleId": 2659,
+      "outputId": 1,
+      "inputModuleId": 2660,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 2659,
+      "outputId": 2,
+      "inputModuleId": 2660,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 2660,
+      "outputId": 0,
+      "inputModuleId": 2661,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 2660,
+      "outputId": 1,
+      "inputModuleId": 2661,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 2660,
+      "outputId": 2,
+      "inputModuleId": 2661,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 2660,
+      "outputId": 3,
+      "inputModuleId": 2661,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 2660,
+      "outputId": 4,
+      "inputModuleId": 2661,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 2660,
+      "outputId": 5,
+      "inputModuleId": 2661,
+      "inputId": 5,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 2660,
+      "outputId": 6,
+      "inputModuleId": 2661,
+      "inputId": 6,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 2660,
+      "outputId": 7,
+      "inputModuleId": 2661,
+      "inputId": 7,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 2663,
+      "outputId": 0,
+      "inputModuleId": 2659,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 2663,
+      "outputId": 1,
+      "inputModuleId": 2659,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 2664,
+      "outputId": 0,
+      "inputModuleId": 2663,
+      "inputId": 4,
+      "color": "#c91847"
+    }
+  ],
+  "version": "1.1.6"
+}

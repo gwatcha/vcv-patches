@@ -1,0 +1,152 @@
+{
+  "stripVersion": 1,
+  "rightModules": [
+    {
+      "id": 2698,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "MIDIToCVInterface",
+      "params": [],
+      "leftModuleId": 2697,
+      "rightModuleId": 2700,
+      "data": {
+        "channels": 16,
+        "polyMode": 3,
+        "clockDivision": 24,
+        "midi": {
+          "driver": 3,
+          "deviceName": "REAPER:MIDI Output 3",
+          "channel": -1
+        }
+      }
+    },
+    {
+      "id": 2700,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "Steps",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 7.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 3.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 2698,
+      "rightModuleId": 2699
+    },
+    {
+      "id": 2699,
+      "plugin": "LittleUtils",
+      "version": "1.0.3",
+      "model": "TeleportIn",
+      "params": [],
+      "leftModuleId": 2700,
+      "data": {
+        "label": "bpm"
+      }
+    }
+  ],
+  "rightWidth": 255.0,
+  "leftModules": [],
+  "leftWidth": 0.0,
+  "cables": [
+    {
+      "outputModuleId": 2698,
+      "outputId": 7,
+      "inputModuleId": 2699,
+      "inputId": 7,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 2698,
+      "outputId": 8,
+      "inputModuleId": 2700,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 2698,
+      "outputId": 8,
+      "inputModuleId": 2700,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 2698,
+      "outputId": 8,
+      "inputModuleId": 2700,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 2698,
+      "outputId": 8,
+      "inputModuleId": 2699,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 2698,
+      "outputId": 10,
+      "inputModuleId": 2700,
+      "inputId": 5,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 2698,
+      "outputId": 10,
+      "inputModuleId": 2700,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 2698,
+      "outputId": 10,
+      "inputModuleId": 2700,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 2700,
+      "outputId": 0,
+      "inputModuleId": 2699,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 2700,
+      "outputId": 1,
+      "inputModuleId": 2699,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 2700,
+      "outputId": 2,
+      "inputModuleId": 2699,
+      "inputId": 1,
+      "color": "#0c8e15"
+    }
+  ],
+  "version": "1.1.6"
+}

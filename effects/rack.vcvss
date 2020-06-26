@@ -1,0 +1,602 @@
+{
+  "stripVersion": 1,
+  "rightModules": [
+    {
+      "id": 3304,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.1",
+      "model": "Road",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 3298,
+      "rightModuleId": 3293,
+      "data": {
+        "onau_1": 1,
+        "onau_2": 1,
+        "onau_3": 1,
+        "onau_4": 1,
+        "onau_5": 1,
+        "onau_6": 1,
+        "auditioning": 0,
+        "bus_audition1": 0,
+        "bus_audition2": 0,
+        "bus_audition3": 0,
+        "bus_audition4": 0,
+        "bus_audition5": 0,
+        "bus_audition6": 0,
+        "temped1": 0,
+        "temped2": 0,
+        "temped3": 0,
+        "temped4": 0,
+        "temped5": 0,
+        "temped6": 0,
+        "color_theme": 0
+      }
+    },
+    {
+      "id": 3293,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.1",
+      "model": "EnterBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.417322844
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 3304,
+      "rightModuleId": 3294,
+      "data": {
+        "color_theme": 0
+      }
+    },
+    {
+      "id": 3294,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.1",
+      "model": "EnterBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 3293,
+      "rightModuleId": 3296,
+      "data": {
+        "color_theme": 0
+      }
+    },
+    {
+      "id": 3296,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.1",
+      "model": "ExitBus",
+      "params": [],
+      "leftModuleId": 3294,
+      "rightModuleId": 3274,
+      "data": {
+        "color_theme": 0
+      }
+    },
+    {
+      "id": 3274,
+      "plugin": "LittleUtils",
+      "version": "1.0.3",
+      "model": "TeleportIn",
+      "params": [],
+      "leftModuleId": 3296,
+      "rightModuleId": 3285,
+      "data": {
+        "label": "fx-i"
+      }
+    },
+    {
+      "id": 3285,
+      "plugin": "LittleUtils",
+      "version": "1.0.3",
+      "model": "TeleportOut",
+      "params": [],
+      "leftModuleId": 3274,
+      "rightModuleId": 3295,
+      "data": {
+        "label": "fx-o"
+      }
+    },
+    {
+      "id": 3295,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.1",
+      "model": "EnterBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.787401617
+        },
+        {
+          "id": 1,
+          "value": 0.582677186
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 3285,
+      "rightModuleId": 2663,
+      "data": {
+        "color_theme": 0
+      }
+    },
+    {
+      "id": 2663,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.1",
+      "model": "BusDepot",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.36220476
+        },
+        {
+          "id": 3,
+          "value": 26.0
+        },
+        {
+          "id": 4,
+          "value": 26.0
+        }
+      ],
+      "leftModuleId": 3295,
+      "rightModuleId": 2659,
+      "data": {
+        "input_on": 1,
+        "level_cv_filter": 1,
+        "color_theme": 0,
+        "fade_cv_mode": 0,
+        "audition_depot": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "audition_mode": 0
+      }
+    },
+    {
+      "id": 2659,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-Pressor",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.11811024
+        },
+        {
+          "id": 1,
+          "value": 0.803149641
+        },
+        {
+          "id": 2,
+          "value": 0.316229999
+        },
+        {
+          "id": 3,
+          "value": 0.316229999
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": -0.763779521
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": 1.0
+        },
+        {
+          "id": 9,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 2663,
+      "rightModuleId": 3301
+    },
+    {
+      "id": 3301,
+      "plugin": "LittleUtils",
+      "version": "1.0.3",
+      "model": "TeleportIn",
+      "params": [],
+      "leftModuleId": 2659,
+      "data": {
+        "label": "OUT"
+      }
+    }
+  ],
+  "rightWidth": 675.0,
+  "leftModules": [
+    {
+      "id": 3305,
+      "plugin": "Stoermelder-P1",
+      "version": "1.6.0",
+      "model": "CVMap",
+      "params": [],
+      "leftModuleId": 3303,
+      "rightModuleId": 3298,
+      "data": {
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "maps": [
+          {
+            "moduleId": 3295,
+            "paramId": 0
+          },
+          {
+            "moduleId": 3293,
+            "paramId": 1
+          },
+          {
+            "moduleId": 3293,
+            "paramId": 2
+          },
+          {
+            "moduleId": 3295,
+            "paramId": 1
+          },
+          {
+            "moduleId": 3294,
+            "paramId": 2
+          },
+          {
+            "moduleId": 2663,
+            "paramId": 2
+          },
+          {
+            "moduleId": 2659,
+            "paramId": 0
+          },
+          {
+            "moduleId": 2659,
+            "paramId": 1
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0
+          }
+        ],
+        "lockParameterChanges": true,
+        "bipolarInput": false,
+        "panelTheme": 1,
+        "audioRate": true,
+        "locked": false
+      }
+    },
+    {
+      "id": 3303,
+      "plugin": "LittleUtils",
+      "version": "1.0.3",
+      "model": "TeleportOut",
+      "params": [],
+      "leftModuleId": 3306,
+      "rightModuleId": 3305,
+      "data": {
+        "label": "ROAD"
+      }
+    },
+    {
+      "id": 3306,
+      "plugin": "LittleUtils",
+      "version": "1.0.3",
+      "model": "TeleportOut",
+      "params": [],
+      "leftModuleId": 3282,
+      "rightModuleId": 3303,
+      "data": {
+        "label": "CC"
+      }
+    },
+    {
+      "id": 3282,
+      "plugin": "LittleUtils",
+      "version": "1.0.3",
+      "model": "TeleportIn",
+      "params": [],
+      "rightModuleId": 3306,
+      "data": {
+        "label": "fx-o"
+      }
+    }
+  ],
+  "leftWidth": 285.0,
+  "cables": [
+    {
+      "outputModuleId": 2659,
+      "outputId": 1,
+      "inputModuleId": 3301,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 2659,
+      "outputId": 2,
+      "inputModuleId": 3301,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 2663,
+      "outputId": 0,
+      "inputModuleId": 2659,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 2663,
+      "outputId": 1,
+      "inputModuleId": 2659,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 3285,
+      "outputId": 0,
+      "inputModuleId": 3293,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 3285,
+      "outputId": 0,
+      "inputModuleId": 3293,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 3285,
+      "outputId": 0,
+      "inputModuleId": 3295,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 3285,
+      "outputId": 1,
+      "inputModuleId": 3293,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 3285,
+      "outputId": 1,
+      "inputModuleId": 3293,
+      "inputId": 5,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 3285,
+      "outputId": 1,
+      "inputModuleId": 3295,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 3285,
+      "outputId": 2,
+      "inputModuleId": 3294,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 3285,
+      "outputId": 2,
+      "inputModuleId": 3295,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 3285,
+      "outputId": 3,
+      "inputModuleId": 3294,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 3285,
+      "outputId": 3,
+      "inputModuleId": 3295,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 3285,
+      "outputId": 4,
+      "inputModuleId": 3295,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 3285,
+      "outputId": 5,
+      "inputModuleId": 3295,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 3304,
+      "outputId": 0,
+      "inputModuleId": 3293,
+      "inputId": 6,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 3293,
+      "outputId": 0,
+      "inputModuleId": 3294,
+      "inputId": 6,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 3294,
+      "outputId": 0,
+      "inputModuleId": 3296,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 3306,
+      "outputId": 3,
+      "inputModuleId": 3305,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 3303,
+      "outputId": 0,
+      "inputModuleId": 3304,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 3303,
+      "outputId": 1,
+      "inputModuleId": 3304,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 3303,
+      "outputId": 2,
+      "inputModuleId": 3304,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 3303,
+      "outputId": 3,
+      "inputModuleId": 3304,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 3303,
+      "outputId": 4,
+      "inputModuleId": 3304,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 3303,
+      "outputId": 5,
+      "inputModuleId": 3304,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 3296,
+      "outputId": 0,
+      "inputModuleId": 3274,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 3296,
+      "outputId": 1,
+      "inputModuleId": 3274,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 3296,
+      "outputId": 2,
+      "inputModuleId": 3274,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 3296,
+      "outputId": 3,
+      "inputModuleId": 3274,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 3296,
+      "outputId": 4,
+      "inputModuleId": 3274,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 3296,
+      "outputId": 5,
+      "inputModuleId": 3274,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "outputModuleId": 3295,
+      "outputId": 0,
+      "inputModuleId": 2663,
+      "inputId": 4,
+      "color": "#c91847"
+    }
+  ],
+  "version": "1.1.6"
+}
